@@ -8,3 +8,4 @@ grocery_list.each {|item| puts "* #{item}"}
 grocery_list.push("rice")
 grocery_list.each {|item| puts "* #{item}"}
 
+puts grocery_list.count
