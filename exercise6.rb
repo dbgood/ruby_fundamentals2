@@ -27,3 +27,7 @@ puts grocery_list[1]
 # Sort out grocery list alphabetically
 # puts grocery_list.sort
 display_list(grocery_list.sort)
+
+# Delete salmon from the list and display
+grocery_list.delete("salmon")
+display_list(grocery_list)
