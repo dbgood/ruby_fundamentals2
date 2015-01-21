@@ -16,3 +16,5 @@ puts "You dont need bananas."
 else
 puts "You need to pick up bananas"
 	end
+# Display the second item on the grocery list
+puts grocery_list[1]
