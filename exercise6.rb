@@ -9,3 +9,10 @@ grocery_list.push("rice")
 grocery_list.each {|item| puts "* #{item}"}
 
 puts grocery_list.count
+
+# Out put bananas "You need to pick up bananas"
+if grocery_list.include?("bananas")
+puts "You dont need bananas."
+else
+puts "You need to pick up bananas"
+	end
