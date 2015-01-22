@@ -26,3 +26,10 @@ students.each do |cohort, number|
 end
 
 puts "Total is #{total}"
+
+
+apples = {
+	gala: 35,
+	honeycrisp: 22,
+	deliciious: 44
+}
